@@ -133,6 +133,11 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
 }
+@media (max-width:500px) {
+    .logo span{
+        font-size: 0.7rem;
+    }
+}
 .menu-close-icon img, .menu-icon img{
     width: 100%;
     height: auto;
@@ -330,6 +335,16 @@ border-radius: 300px;
     display: block;
     margin-inline: auto;
     margin-top: 30px;
+}
+@media (max-width:767px) {
+    .gallery-wrapper .img-wrapper{
+        width: calc(33.3333% - 10px);
+    }
+}
+@media (max-width:500px) {
+    .gallery-wrapper .img-wrapper{
+        width: calc(50% - 10px);
+    }
 }
 /* gallery-section end */
 
