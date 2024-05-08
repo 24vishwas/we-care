@@ -646,6 +646,15 @@ body {
 .pie-chart{
     width: 30%;
 }
+@media (max-width:767px) {
+    .pie-chart{
+        width: 50%;
+        margin-inline: auto;
+    }
+    .graph-container .content-wrapper{
+        width: 100%;
+    }
+}
 
 /* events section */
 .events-section{
